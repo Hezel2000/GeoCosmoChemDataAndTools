@@ -1,5 +1,5 @@
 name,abbreviated name,description,sources,license,how to cite,github link
 oxide - element conversion factors,oxelconv,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/oxide%20-%20element%20conversion%20factors.csv
 chemical element properties,chemelprop,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/chemical%20element%20properties.csv
-chondrite properties,chonprop,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/chondrite%20properties.csv
+chondrite properties,chondprop,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/chondrite%20properties.csv
 chondrite element abundances,chondelab,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/chondrite%20element%20abundances.csv
