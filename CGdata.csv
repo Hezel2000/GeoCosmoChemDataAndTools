@@ -1,0 +1,3 @@
+name,abbreviated name,description,sources,github link
+oxide - element conversion factors,oxelconv,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/element-oxid.csv
+chemical element properties,chemelprop,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/element-oxid.csv
