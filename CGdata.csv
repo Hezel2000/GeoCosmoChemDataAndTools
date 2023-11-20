@@ -1,7 +1,9 @@
-name,abbreviated name,description,sources,license,how to cite,github link,github csv link
-oxide - element conversion factors,oxelconv,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/oxide%20-%20element%20conversion%20factors.json,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/oxide%20-%20element%20conversion%20factors.csv
-chemical element properties,chemelprop,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/chemical%20element%20properties.json,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/chemical%20element%20properties.csv
-chondrite properties,chondprop,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/chondrite%20properties.json,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/chondrite%20properties.csv
-chondrite element abundances,chondelab,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/chondrite%20element%20abundances.json,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/chondrite%20element%20abundances.csv
-element electron binding energies,ebindenergies,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/element%20electron%20binding%20energies.json,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/element%20electron%20binding%20energies.csv
-element electron transition energies,etransenergies,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/element%20electron%transition%20energies.json,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/element%20electron%transition%20energies.csv
+name,abbreviated name,description,sources,license,how to cite,github link
+oxide - element conversion factors,oxelconv,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/oxide%20-%20element%20conversion%20factors.json
+chemical element properties,chemelprop,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/chemical%20element%20properties.json
+chondrite properties,chondprop,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/chondrite%20properties.json
+chondrite element abundances,chondelab,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/chondrite%20element%20abundances.json
+element electron binding energies,ebindenergies,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/element%20electron%20binding%20energies.json
+element electron transition energies,etransenergies,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/element%20electron%transition%20energies.json
+West African Craton,westafcrat,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/West%20African%20Craton.json
+Tanzania Craton Archean,tanzcratarch,,,,,https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/Tanzania%20Craton%20Archean.json
