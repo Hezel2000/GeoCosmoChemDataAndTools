@@ -14,7 +14,7 @@ import os
 
 
 # Display the main database content
-def display_cgdatabases():
+def display_databases():
     return pd.read_csv('https://raw.githubusercontent.com/Hezel2000/geocosmochemdataandtools/master/GCCdata.csv')
 
 
@@ -38,12 +38,13 @@ def get_data(database, property=None, type=None):
 
 
 # Convert a csv into a json file with metadata
-def write_json_file(file_name, file_path=None, description=None, references=None, license=None):
+def write_json_file(file_name, file_path=None, description=None, references=None, source=None, license=None):
     dataset = pd.read_csv(file_path + '/' + file_name + '.csv').to_dict()
 
     json_file = {
         "description": description,
         "references": references,
+        "source": source,
         "license": license,
         "dataset": dataset
     }
