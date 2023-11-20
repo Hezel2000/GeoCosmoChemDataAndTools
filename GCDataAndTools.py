@@ -19,7 +19,7 @@ def display_cgdatabases():
 
 
 # Get a specific database
-def get_cgdata(database, property=None, type=None):
+def get_data(database, property=None, type=None):
     df_CGdata = pd.read_csv('https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/CGdata.csv')
     fil = (df_CGdata['name'] == database) | (df_CGdata['abbreviated name'] == database)
     url = df_CGdata[fil]['github link'].values[0]
