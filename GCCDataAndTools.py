@@ -15,12 +15,12 @@ import os
 
 # Display the main database content
 def display_cgdatabases():
-    return pd.read_csv('https://raw.githubusercontent.com/Hezel2000/GeoCosmoChemDataAndTools/master/GCCdata.csv')
+    return pd.read_csv('https://raw.githubusercontent.com/Hezel2000/geocosmochemdataandtools/master/GCCdata.csv')
 
 
 # Get a specific database
 def get_data(database, property=None, type=None):
-    df_GCdata = pd.read_csv('https://raw.githubusercontent.com/Hezel2000/GeoCosmoChemDataAndTools/master/GCCdata.csv')
+    df_GCdata = pd.read_csv('https://raw.githubusercontent.com/Hezel2000/geocosmochemdataandtools/master/GCCdata.csv')
     fil = (df_GCdata['name'] == database) | (df_GCdata['abbreviated name'] == database)
     url = df_GCdata[fil]['github link'].values[0]
     resp = requests.get(url)
