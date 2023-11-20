@@ -20,9 +20,9 @@ def display_cgdatabases():
 
 # Get a specific database
 def get_data(database, property=None, type=None):
-    df_CGdata = pd.read_csv('https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/CGdata.csv')
-    fil = (df_CGdata['name'] == database) | (df_CGdata['abbreviated name'] == database)
-    url = df_CGdata[fil]['github link'].values[0]
+    df_GCdata = pd.read_csv('https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/CGdata.csv')
+    fil = (df_GCdata['name'] == database) | (df_GCdata['abbreviated name'] == database)
+    url = df_GCdata[fil]['github link'].values[0]
     resp = requests.get(url)
     full_data = json.loads(resp.text)
 
