@@ -6,25 +6,6 @@ import os
 
 base_url = 'https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/'
 
-json_file_names = ['chondrite properties.json',
- 'chemical element properties.json',
- 'chondrite element abundances.json',
- 'element electron binding energies.json',
- 'oxide - element conversion factors.json',
- 'West African Craton.json',
- 'Tanzania Craton Archean.json',
- 'Bastar Craton.json',
- 'Easter Seamount Chain Salas Y Gomez Ridge.json',
- 'Ninetyeast Ridge.json',
- 'Baical Rift Zone.json',
- 'Emeishan.json',
- 'Galapagos Islands.json',
- 'Banda Arc.json',
- 'Karoo Province - Africa.json',
- 'North American Cordillera - Paleozoic.json',
- 'Hyblean or Iblean Plateau, Sicily.json',
- 'McDonald Islands.json']
-
 # # json file names from the json folder
 # def get_json_file_names():
 #     json_files = []
@@ -41,10 +22,10 @@ def display_databases():
 
 # Get a specific database
 def get_data(database, property=None, type=None):
-    #df_GCdata = pd.read_csv('https://raw.githubusercontent.com/Hezel2000/geocosmochemdataandtools/master/GCCdata.csv')
-    #fil = (df_GCdata['available datasets'] == database) #| (df_GCdata['abbreviated name'] == database)
-    #url = df_GCdata[fil]['github link'].values[0]
-    url = base_url + 'json/'+ database +'.json'
+    df_GCdata = pd.read_csv(base_url + 'GCCdata.csv')
+    fil = (df_GCdata['available datasets'] == database) | (df_GCdata['abbreviated name'] == database)
+    url = df_GCdata[fil]['available datasets'].values[0]
+    #url = base_url + 'json/'+ database +'.json'
     resp = requests.get(url)
     full_data = json.loads(resp.text)
 
