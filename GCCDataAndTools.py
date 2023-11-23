@@ -6,17 +6,36 @@ import os
 
 base_url = 'https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/'
 
-# json file names from the json folder
-def get_json_file_names():
-    json_files = []
-    for file in os.listdir('json'):
-        if file.endswith('json'):
-            json_files.append(file[:-5])
-    return json_files
+json_file_names = ['chondrite properties.json',
+ 'chemical element properties.json',
+ 'chondrite element abundances.json',
+ 'element electron binding energies.json',
+ 'oxide - element conversion factors.json',
+ 'West African Craton.json',
+ 'Tanzania Craton Archean.json',
+ 'Bastar Craton.json',
+ 'Easter Seamount Chain Salas Y Gomez Ridge.json',
+ 'Ninetyeast Ridge.json',
+ 'Baical Rift Zone.json',
+ 'Emeishan.json',
+ 'Galapagos Islands.json',
+ 'Banda Arc.json',
+ 'Karoo Province - Africa.json',
+ 'North American Cordillera - Paleozoic.json',
+ 'Hyblean or Iblean Plateau, Sicily.json',
+ 'McDonald Islands.json']
+
+# # json file names from the json folder
+# def get_json_file_names():
+#     json_files = []
+#     for file in os.listdir('json'):
+#         if file.endswith('json'):
+#             json_files.append(file[:-5])
+#     return json_files
 
 # Display the main database content
 def display_databases():
-    return pd.DataFrame(get_json_file_names()).rename(columns = {0: 'available datasets'})
+    return pd.DataFrame(json_file_names).rename(columns = {0: 'available datasets'})
     #return pd.read_csv('https://raw.githubusercontent.com/Hezel2000/geocosmochemdataandtools/master/GCCdata.csv')
 
 
