@@ -6,25 +6,17 @@ import os
 
 base_url = 'https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/'
 
-# # json file names from the json folder
-# def get_json_file_names():
-#     json_files = []
-#     for file in os.listdir('json'):
-#         if file.endswith('json'):
-#             json_files.append(file[:-5])
-#     return json_files
-
 # Display the main database content
 def display_databases():
-    return pd.DataFrame(json_file_names).rename(columns = {0: 'available datasets'})
-    #return pd.read_csv('https://raw.githubusercontent.com/Hezel2000/geocosmochemdataandtools/master/GCCdata.csv')
+    #return pd.DataFrame(json_file_names).rename(columns = {0: 'available datasets'})
+    return pd.read_csv(base_url + 'GCCdata.csv')
 
 
 # Get a specific database
 def get_data(database, property=None, type=None):
     df_GCdata = pd.read_csv(base_url + 'GCCdata.csv')
     fil = (df_GCdata['available datasets'] == database) | (df_GCdata['abbreviated name'] == database)
-    url = df_GCdata[fil]['available datasets'].values[0]
+    url = base_url + 'json/' + df_GCdata[fil]['available datasets'].values[0] + '.json'
     #url = base_url + 'json/'+ database +'.json'
     resp = requests.get(url)
     full_data = json.loads(resp.text)
