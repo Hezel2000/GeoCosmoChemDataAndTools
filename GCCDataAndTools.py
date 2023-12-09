@@ -2,7 +2,6 @@
 import pandas as pd
 import requests
 import json
-import os
 
 base_url = 'https://raw.githubusercontent.com/Hezel2000/cosmogeochemdata/master/'
 
@@ -28,24 +27,4 @@ def get_data(database, property=None, type=None):
         return list(full_data.keys())[:-1]
     else:
         return full_data[property]
-
-
-# Convert a csv into a json file with metadata
-def write_json_file(file_name, file_path=None, description=None, references=None, source=None, license=None):
-    dataset = pd.read_csv(file_path + '/' + file_name + '.csv').to_dict()
-
-    json_file = {
-        "description": description,
-        "references": references,
-        "source": source,
-        "license": license,
-        "dataset": dataset
-    }
-
-    if file_path is not None:
-        with open(file_path + '/' + file_name + ".json", "w") as outfile:
-            json.dump(json_file, outfile)
-    else:
-        with open(os.getcwd() + '/' + file_name + ".json", "w") as outfile:
-            json.dump(json_file, outfile)
 
