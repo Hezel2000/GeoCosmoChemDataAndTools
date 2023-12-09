@@ -1,0 +1,20 @@
+available datasets,abbreviated name,type
+oxide - element conversion factors,oxelconv,basic
+chemical element properties,chemelprop,basic
+chondrite properties,chondprop,basic
+chondrite element abundances,chondelab,basic
+element electron binding energies,ebindenergies,basic
+element electron transition energies,etransenergies,basic
+West African Craton,westafcrat,georoc
+Tanzania Craton Archean,tanzcratarch,georoc
+Bastar Craton,bastcrat,georoc
+Easter Seamount Chain Salas Y Gomez Ridge,eastsearid,georoc
+Ninetyeast Ridge,ninetyrid,georoc
+Baical Rift Zone,baizone,georoc
+Emeishan,emei,georoc
+Galapagos Islands,galis,georoc
+Banda Arc,bandarc,georoc
+Karoo Province - Africa,karaf,georoc
+North American Cordillera - Paleozoic,namcord,georoc
+"Hyblean or Iblean Plateau, Sicily",hybibplat,georoc
+McDonald Islands,mcdis,georoc
