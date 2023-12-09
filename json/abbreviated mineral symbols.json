@@ -5,7 +5,7 @@
     "source": "papyer supplement by L. N. Warr",
     "upload date": "09.12.2023",
     "dataset date": "08.06.2021",
-    "comment": """last update of the dataset: 08.06.2021 by L. N. Warr
+    "comment": "last update of the dataset: 08.06.2021 by L. N. Warr
     based largely on IMA list (http://cnmnc.main.jp/) May 2021 version
     
     Symbol rules
@@ -45,7 +45,6 @@
     V: Viandio-
     Z: Zinc- (or Zn), Zinco- (or Zn)
 
-    Common name components
-    
-    """
+    Common name components"
+
 }
