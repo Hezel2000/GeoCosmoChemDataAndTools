@@ -5,6 +5,7 @@ chondrite properties,chondprop,basic
 chondrite element abundances,chondelab,basic
 element electron binding energies,ebindenergies,basic
 element electron transition energies,etransenergies,basic
+abbreviated mineral symbols,abminsym,vocabulary
 West African Craton,westafcrat,georoc
 Tanzania Craton Archean,tanzcratarch,georoc
 Bastar Craton,bastcrat,georoc

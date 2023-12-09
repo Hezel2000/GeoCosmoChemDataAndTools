@@ -1,0 +1,51 @@
+{
+    "description": "IMA–CNMNC approved mineral symbols",
+    "references": "Warr LN (2021) Mineralogical Magazine, 85:3, 291-320",
+    "dois": "https://doi.org/10.1180/mgm.2021.43",
+    "source": "papyer supplement by L. N. Warr",
+    "upload date": "09.12.2023",
+    "dataset date": "08.06.2021",
+    "comment": """last update of the dataset: 08.06.2021 by L. N. Warr
+    based largely on IMA list (http://cnmnc.main.jp/) May 2021 version
+    
+    Symbol rules
+    1: The first two or three letters of the mineral name (e.g. Saponite = Sap) if not common to many mineral phases.
+    2: A combination of three or four letters that are characteristic of the mineral name (e.g. Chamosite = Chm)
+    3: A selection of three or four letters representing components of the name (commonly syllables), if not already in use (e.g. Brammalite = Bml).
+    4: As four or five-letter abbreviations when  prefixes are present and related mineral symbols have previously been defined (e.g. ferroaluminoceladonite is abbreviated to Facel, whereby the Kretz symbol for celadonite is cel.)
+    
+    IMA status (information from http://cnmnc.main.jp/)
+    A: approved
+    D: discredited
+    G: grandfathered
+    GROUP: name of group of mineral species
+    Rd: redefined
+    Rn: renamed
+    Q: questioned
+    I: informal
+    NL: not listed
+    ML: mixed layer
+    
+    Common prefixes
+    A: Alumino-, Alumo-, Antho-, André-, Ammonio, Argento- (or Ag), Arsen-, Arseno-,  Auri (or Au)
+    B: Baryto-, Blue-, Bob-, Bario-, Bismuto-
+    C: Chloro-, Cupro-, Calcio-, Calc-, Chalco- (or cc), Crypto- (or Cp), Clino- (or Cl), Cobalt (or Cb)
+    E: Epi-
+    F: Ferro-, Ferric-, Fluor-, Fluro-
+    G: Galeno-
+    H: Hydro-, Hydroxy (or Hy), Hydroxyl-
+    L: Lithio- (or Lh), Lothar-
+    M: Lithio- (or Lh), Lothar-
+    N: Natro-, Nikel-, Nitro-, Naba-, Niobo- (or Nb)
+    O: Ortho-, Oxo-
+    P: Para-, Pallado- (or Pd), Para-, Phospho (or Ph), Para-, Phospho- (or Ph), Plumbo- (or Pb), Potassic-
+    S: Stibo-, Strontio- (or St)
+    T: Telluro- (or Tl), Titano- (or Tt), Tung- (or Tg)
+    U: Telluro- (or Tl), Titano- (or Tt), Tung- (or Tg)
+    V: Viandio-
+    Z: Zinc- (or Zn), Zinco- (or Zn)
+
+    Common name components
+    
+    """
+}
