@@ -2,11 +2,12 @@
     "description": "IMA–CNMNC approved mineral symbols",
     "references": "Warr LN (2021) Mineralogical Magazine, 85:3, 291-320",
     "dois": "https://doi.org/10.1180/mgm.2021.43",
-    "source": "papyer supplement by L. N. Warr",
+    "source": "paper supplement by L. N. Warr",
     "upload date": "09.12.2023",
     "dataset date": "08.06.2021",
-    "comment": "last update of the dataset: 08.06.2021 by L. N. Warr
-    based largely on IMA list (http://cnmnc.main.jp/) May 2021 version
+    # supplement in addition to comment, which are then supplied in an expander?
+    "comment": "last update of the dataset: 08.06.2021 by L. N. Warr \n
+    based largely on IMA list (http://cnmnc.main.jp/) May 2021 version \n
     
     Symbol rules
     1: The first two or three letters of the mineral name (e.g. Saponite = Sap) if not common to many mineral phases.
